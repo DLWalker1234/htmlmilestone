@@ -1,0 +1,69 @@
+* {
+	padding:0;
+	margin:0;
+	
+}
+
+
+
+h1 {
+	font-family: 'Lobster', cursive;
+	color: black;
+	text-align: center;
+	font-size: 150px
+
+}
+
+h2 {
+	font-family: 'Lobster', cursive;
+	color:black;
+	text-indent: 3em;
+	font-size: 50px;
+}
+
+#bio {
+	font-size: 30px;
+	text-indent: 3em;
+}
+
+.myFace {
+	height: 150px;
+	width: 150px;
+	border-radius: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+#landscape {
+	position: absolute;
+	top: 0px;
+	z-index: -1;
+	min-width: 1000px;
+	display:block;
+	height: 500px;
+}
+
+.video {
+	margin-left: 11em;
+	margin-right:2em;
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+
+.resize img {
+	height: 50px;
+	width: 50px;
+	margin-left: 1em;
+	margin-right: 1em;
+	margin-top: 1em;
+    margin: 0 auto;
+    display: inline-block;
+    display: flex;
+    flex-direction: row;
+}
+
+footer {
+	margin-left: 100px;
+}
+
