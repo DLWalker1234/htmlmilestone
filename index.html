@@ -3,6 +3,7 @@
 
 <head>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="styles.css">
 <title>Dustin's Domain</title>
@@ -18,11 +19,11 @@
 		
 	</header>
 
+ 	
 
-
-		<article 
+		<article>
 			<h2><U>Biography</U></h2>
-			<div class="bio"><b>Hello! My name is Dustin. I am rather new to Software Development, but am quite enjoying it. In a previous life I was in the Air Force, where I was a medic. After getting out of the military I am excited to try something challenging and new.</b></div>
+			<p class="bio"><b>Hello! My name is Dustin. I am rather new to Software Development, but am quite enjoying it. In a previous life I was in the Air Force, where I was a medic. After getting out of the military I am excited to try something challenging and new.</b></p>
 		</article>
 
 		<article class="resources">
@@ -35,12 +36,34 @@
 
 		<article class="projects">
 			<h2><u>Projects</u></h2>
-			<div></div>
+			
+				<div class="row">
+
+
+ 					<div id="thumb1">
+    				<a href="#" class="thumbnail">
+      				<img src="https://www.hindscc.edu/Assets/images/computer-programming-tech.jpg" alt="...">
+      				<p>Project #1</p>
+    				</a>
+  					</div>
+  					<div id="thumb2">
+    				<a href="#" class="thumbnail">
+      				<img src="https://cdn.kastatic.org/googleusercontent/7W_eJDhHw7WbKjL9Eoe2TVjUbhUN1dCEdHDFPkpEk9pMqQvBGX0GoRGMsW45b7oGS3Sf2v-4o7ciunB72PCQYty3FQ" alt="...">
+      				<p>Project #2</p>
+    				</a>
+  					</div>
+ 
+				</div>
+
+
+
+			
 		</article>
 
 		<article class="posts">
-			<h2><u>Posts</u></h2>
-			<div></div>
+			<h2><u>Blog Posts</u></h2>
+			<div id="blogHeader"></div>
+			<div id=""></div>
 		</article>
 
 	<footer>
@@ -55,17 +78,4 @@
 	<script src="main.js"></script>
 </html>
 
-Title - make it meaningful.
-Header element  - This is the main headline; include your name and what this page is.
-Photo
-Section element containing your bio
-Section element with links to resources or sites you like
-Section element with two sections for future projects (placeholders)
-Section area containing your blog posts. Each of these should use article element.
-Footer element with email and professional social media links; Github, twitter, LinkedIn, etc.
-Semantic mark-up for all major elements.
-Validate your html page with W3 validator: https://validator.w3.org/
-Appropriate folder structure: images, css.
-Color scheme - choose primary, secondary, and tertiary colors in addition to black and white. Use these colors consistently in your stylesheet.
 
-The page will have a linked JavaScript file for the blog posts section. Create an array to hold your posts (at least 2 posts). Each item in the array must be an object that contains at a minimum the following information: Title, Copy, Date. Use JavaScript to add each post to the DOM.

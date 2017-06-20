@@ -1,6 +1,7 @@
 * {
 	padding:0;
 	margin:0;
+
 	
 }
 
@@ -10,7 +11,7 @@ h1 {
 	font-family: 'Lobster', cursive;
 	color: black;
 	text-align: center;
-	font-size: 150px
+	font-size: 125px;
 
 }
 
@@ -21,9 +22,12 @@ h2 {
 	font-size: 50px;
 }
 
-#bio {
+p {
 	font-size: 30px;
-	text-indent: 3em;
+	margin-left: 1em;
+	margin-top: 0.5em;
+	padding-right: 2em;
+
 }
 
 .myFace {
@@ -43,11 +47,19 @@ h2 {
 	height: 500px;
 }
 
+
+
 .video {
 	margin-left: 11em;
 	margin-right:2em;
 	margin-top: 2em;
 	margin-bottom: 2em;
+}
+
+.row {
+	height: 150px;
+	width:150px;
+	display:inline-flex;
 }
 
 
@@ -58,12 +70,33 @@ h2 {
 	margin-right: 1em;
 	margin-top: 1em;
     margin: 0 auto;
-    display: inline-block;
-    display: flex;
-    flex-direction: row;
+    
 }
 
 footer {
 	margin-left: 100px;
 }
 
+article {
+	
+	border-bottom: 1px dotted lightgrey;
+	color: #89BDBB;
+	text-shadow: 1.7px 1.7px black;
+}
+
+/*Title - make it meaningful.
+Header element  - This is the main headline; include your name and what this page is.
+Photo
+Section element containing your bio
+Section element with links to resources or sites you like
+Section element with two sections for future projects (placeholders)
+Section area containing your blog posts. Each of these should use article element.
+Footer element with email and professional social media links; Github, twitter, LinkedIn, etc.
+Semantic mark-up for all major elements.
+Validate your html page with W3 validator: https://validator.w3.org/
+Appropriate folder structure: images, css.
+Color scheme - choose primary, secondary, and tertiary colors in addition to black and white. Use these colors consistently in your stylesheet.
+
+The page will have a linked JavaScript file for the blog posts section. Create an array to hold your posts (at least 2 posts). Each item in 
+the array must be an object that contains at a minimum the following information: Title, Copy, Date. Use JavaScript
+ to add each post to the DOM.*/
