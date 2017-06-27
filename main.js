@@ -29,7 +29,7 @@ var blogPostsLength = blogPosts.length;
 
 
 
-for ( var i = 0; i < blogPosts.length; i++) {
+for ( var i = 0; i < blogPostsLength; i++) {
 	if (i < 2) {
 	document.getElementById('row1').innerHTML += `<div class= "eachProduct">
 						<img src="${blogPosts[i].Image}" width="300px" height="300px">
